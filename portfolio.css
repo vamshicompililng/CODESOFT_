@@ -1,0 +1,57 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/* Your custom styles go here */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+@media (max-width: 640px) {
+    .flex {
+        flex-direction: inline;
+    }
+    .w-1/3 {
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width: 639px) {
+    body {
+        width: 103%;
+    }
+}
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+align-content: center;
+justify-content: center;
+}
+
+/* Hover effect for the button */
+.download-button:hover {
+  background-color: #45a049;
+}
